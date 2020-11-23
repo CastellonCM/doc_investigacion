@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.6)  17 NOV 2020 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.6)  18 NOV 2020 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,10 +143,23 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 2--3
 []
  []
 
+
+! LaTeX Error: Environment footnotesize undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{footnotesize}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
+(Font)              <7> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
+(Font)              <5> on input line 8.
 Missing character: There is no T in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -154,7 +167,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.10 Tarea 1 & \cellcolor
+l.11 Tarea 1 & \cellcolor
                          {gray}	&	&	&	&	&	&	&	&	&	&	&	&	&	& 	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -173,7 +186,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-l.11 Tarea 2 &	& \cellcolor
+l.12 Tarea 2 &	& \cellcolor
                            {gray} & \cellcolor{gray} & \cellcolor{gray} &	&	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -186,7 +199,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.11 Tarea 2 &	& \cellcolor{gray} & \cellcolor
+l.12 Tarea 2 &	& \cellcolor{gray} & \cellcolor
                                               {gray} & \cellcolor{gray} &	&	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -199,7 +212,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.11 ...olor{gray} & \cellcolor{gray} & \cellcolor
+l.12 ...olor{gray} & \cellcolor{gray} & \cellcolor
                                                   {gray} &	&	&	&	&	&	&	&	&	&...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -218,7 +231,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
-l.12 Tarea 3 &	&	&	& 	& \cellcolor
+l.13 Tarea 3 &	&	&	& 	& \cellcolor
                                   {gray}	&	&	&	&	&	&	&	&	&	&	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -237,7 +250,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 4 in font nullfont!
 ! Undefined control sequence.
-l.13 Tarea 4 &	&	&	&	&	& \cellcolor
+l.14 Tarea 4 &	&	&	&	&	& \cellcolor
                                    {gray}	&	&	&	&	&	&	&	&	&	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -256,7 +269,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
-l.14 Tarea 5 &	&	&	&	& \cellcolor
+l.15 Tarea 5 &	&	&	&	& \cellcolor
                                  {gray}	& \cellcolor{gray}	& \cellcolor{gray...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -269,7 +282,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.14 ... 5 &	&	&	&	& \cellcolor{gray}	& \cellcolor
+l.15 ... 5 &	&	&	&	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& \cellcolor{gray}	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -282,7 +295,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.14 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
+l.15 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	&	&	&	&	&	&	&	&	\\ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -301,7 +314,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 6 in font nullfont!
 ! Undefined control sequence.
-l.15 Tarea 6 &	&	&	&	&	&	&	& \cellcolor
+l.16 Tarea 6 &	&	&	&	&	&	&	& \cellcolor
                                        {gray}	& 	&	&	&	&	&	&	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -320,7 +333,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 7 in font nullfont!
 ! Undefined control sequence.
-l.16 Tarea 7 &	&	&	&	&	&	&	&	& \cellcolor
+l.17 Tarea 7 &	&	&	&	&	&	&	&	& \cellcolor
                                          {gray}	& 	&	&	&	&	&	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -339,7 +352,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 8 in font nullfont!
 ! Undefined control sequence.
-l.17 Tarea 8 &	&	&	&	&	&	&	& \cellcolor
+l.18 Tarea 8 &	&	&	&	&	&	&	& \cellcolor
                                        {gray}	& \cellcolor{gray}	& \cellcolo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -352,7 +365,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.17 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
+l.18 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& \cellcolor{gray}	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -365,7 +378,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.17 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
+l.18 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& 	&	&	&	&	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -384,7 +397,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no 9 in font nullfont!
 ! Undefined control sequence.
-l.18 Tarea 9 & 	&	&	&	&	&	&	&	&	&	& \cellcolor
+l.19 Tarea 9 & 	&	&	&	&	&	&	&	&	&	& \cellcolor
                                               {gray}	&  	&	&	& 	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -404,7 +417,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.19 Tarea 10 & 	&	&	&	&	&	&	&	&	&	&	& \cellcolor
+l.20 Tarea 10 & 	&	&	&	&	&	&	&	&	&	&	& \cellcolor
                                                  {gray}	&	&	& 	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -424,7 +437,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.20 Tarea 11 & 	&	&	&	&	&	&	&	&	&	&	& \cellcolor
+l.21 Tarea 11 & 	&	&	&	&	&	&	&	&	&	&	& \cellcolor
                                                  {gray}	& \cellcolor{gray}	&...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -437,7 +450,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.20 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
+l.21 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	&	& 	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -457,7 +470,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-l.21 ...a 12 & 	&	&	&	&	&	&	&	&	&	&	&	& \cellcolor
+l.22 ...a 12 & 	&	&	&	&	&	&	&	&	&	&	&	& \cellcolor
                                                   {gray}	& \cellcolor{gray}	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -470,7 +483,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.21 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
+l.22 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& 	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -490,7 +503,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
-l.22 Tarea 13 & 	&	&	&	&	&	&	&	&	& \cellcolor
+l.23 Tarea 13 & 	&	&	&	&	&	&	&	&	& \cellcolor
                                              {gray}	& \cellcolor{gray}	& \ce...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -503,7 +516,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.22 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
+l.23 ...	&	&	&	&	&	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& \cellcolor{gray}	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -516,7 +529,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.22 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
+l.23 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& \cellcolor{gray}	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -529,7 +542,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.22 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
+l.23 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& \cellcolor{gray}	...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -542,7 +555,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.22 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
+l.23 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
                                                   {gray}	& \cellcolor{gray} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -555,7 +568,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.22 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
+l.23 ...olor{gray}	& \cellcolor{gray}	& \cellcolor
                                                   {gray} 	\\ \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -568,12 +581,25 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 
-Overfull \hbox (403.31134pt too wide) in paragraph at lines 7--25
+! LaTeX Error: \begin{center} on input line 3 ended by \end{footnotesize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{footnotesize}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (467.31134pt too wide) in paragraph at lines 8--27
  [] 
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 27--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--29
 [] 
  []
 
@@ -635,12 +661,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 28--29
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 30--31
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 28--29
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 30--31
 \OT1/cmr/bx/n/10 01
  []
 
@@ -719,12 +745,12 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 30--31
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 32--33
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 30--31
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 32--33
 \OT1/cmr/bx/n/10 02
  []
 
@@ -785,7 +811,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.32 ...byll reproduciendo resultados de $X_{\text
+l.34 ...byll reproduciendo resultados de $X_{\text
                                                   {max}}$.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -795,17 +821,17 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 32--33
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 34--35
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 32--33
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 34--35
 \OT1/cmr/bx/n/10 03
  []
 
 
-Overfull \hbox (24.75322pt too wide) in paragraph at lines 32--33
+Overfull \hbox (24.75322pt too wide) in paragraph at lines 34--35
 \OML/cmm/m/it/10 X[]$ 
  []
 
@@ -879,12 +905,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 34--35
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 36--37
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 34--35
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 36--37
 \OT1/cmr/bx/n/10 04
  []
 
@@ -961,12 +987,12 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 36--37
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 38--39
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 36--37
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 38--39
 \OT1/cmr/bx/n/10 05
  []
 
@@ -1029,7 +1055,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.38 ...-LHC reproduciendo resultados de $X_{\text
+l.40 ...-LHC reproduciendo resultados de $X_{\text
                                                   {max}}$.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1039,17 +1065,17 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 38--39
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 40--41
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 38--39
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 40--41
 \OT1/cmr/bx/n/10 06
  []
 
 
-Overfull \hbox (24.75322pt too wide) in paragraph at lines 38--39
+Overfull \hbox (24.75322pt too wide) in paragraph at lines 40--41
 \OML/cmm/m/it/10 X[]$ 
  []
 
@@ -1125,12 +1151,12 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 40--41
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 42--43
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 40--41
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 42--43
 \OT1/cmr/bx/n/10 07
  []
 
@@ -1210,12 +1236,12 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 42--43
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 44--45
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 42--43
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 44--45
 \OT1/cmr/bx/n/10 08
  []
 
@@ -1281,7 +1307,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.44 ...I-04 reproduciendo resultados de $X_{\text
+l.46 ...I-04 reproduciendo resultados de $X_{\text
                                                   {max}}$.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1291,17 +1317,17 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 44--45
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 46--47
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 44--45
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 46--47
 \OT1/cmr/bx/n/10 09
  []
 
 
-Overfull \hbox (24.75322pt too wide) in paragraph at lines 44--45
+Overfull \hbox (24.75322pt too wide) in paragraph at lines 46--47
 \OML/cmm/m/it/10 X[]$ 
  []
 
@@ -1380,12 +1406,12 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 46--47
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 48--49
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 46--47
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 48--49
 \OT1/cmr/bx/n/10 10
  []
 
@@ -1426,12 +1452,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 48--49
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 50--51
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 48--49
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 50--51
 \OT1/cmr/bx/n/10 11
  []
 
@@ -1518,12 +1544,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 50--51
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 52--53
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 50--51
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 52--53
 \OT1/cmr/bx/n/10 12
  []
 
@@ -1550,12 +1576,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (28.22899pt too wide) in paragraph at lines 52--53
+Overfull \hbox (28.22899pt too wide) in paragraph at lines 54--55
 \OT1/cmr/bx/n/10 Tarea
  []
 
 
-Overfull \hbox (11.49994pt too wide) in paragraph at lines 52--53
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 54--55
 \OT1/cmr/bx/n/10 13
  []
 
@@ -1567,11 +1593,11 @@ Overfull \hbox (11.49994pt too wide) in paragraph at lines 52--53
 
  
 Here is how much of TeX's memory you used:
- 13 strings out of 492982
- 224 string characters out of 6134897
+ 14 strings out of 492982
+ 239 string characters out of 6134897
  69926 words of memory out of 5000000
- 3678 multiletter control sequences out of 15000+600000
+ 3679 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,7n,12p,268b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,7n,12p,268b,205s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

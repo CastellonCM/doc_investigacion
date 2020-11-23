@@ -85,7 +85,7 @@ donde $E_0$ es la energía con la que entra al proceso de aceleración. Tomando 
 	
 
 \section{Chubascos atmosféricos}
-	Un chubasco atmosférico (español para \textit{Air Shower}) es una cascada de partículas generada por la interacción de un rayo cósmico primario en la alta atmósfera. Antes de profundizar en cómo se desarrollan estas cascadas, conviene describir brevemente las principales características de la atmósfera.
+	Un chubasco atmosférico (español para \textit{Air Shower}) es una cascada de partículas generada por la interacción de un rayo cósmico en la alta atmósfera. Antes de profundizar en cómo se desarrollan estas cascadas, conviene describir brevemente las principales características de la atmósfera.
 	
 	\subsection{Atmósfera terrestre}
 	La capa de aire que rodea la Tierra se extiende hasta una altura  mayor a $100$ km. Según el modelo \textit{US Standard Atmosphere}, la atmósfera está compuesta principalmente por N$_2$ ($78$ \%), O$_2$ ($21$ \%) y Ar ($0.9$ \%). Acorde al mismo modelo, la densidad del aire es función de la altura:
@@ -98,7 +98,7 @@ donde $E_0$ es la energía con la que entra al proceso de aceleración. Tomando 
 	\end{align}
 
 	\subsection{Desarrollo de un chubasco atmosférico}	
-	Los chubascos atmosféricos se desarrollan de forma compleja como una combinación de cascadas electromagnéticas y producción de partículas por interacciones hadrónicas \cite{Matthews2005}. A grandes rasgos, una interacción hadrónica entre el rayo cósmico primario y un núcleo de la atmósfera produce partículas secundarias: una partícula principal (con la mayor parte de la energía inicial) que puede iniciar otro chubasco, y un gran número de mesones, principalmente piones cargados ($\pi^{\pm}$) y neutros ($\pi^0$).\\
+	Los chubascos atmosféricos se desarrollan de forma compleja como una combinación de cascadas electromagnéticas y producción de partículas por interacciones hadrónicas \cite{Matthews2005}. A grandes rasgos, una interacción hadrónica entre el rayo cósmico primario y un núcleo de la atmósfera produce múltiples partículas secundarias: una partícula principal (con la mayor parte de la energía inicial) que puede iniciar otro chubasco, y un gran número de mesones, principalmente piones cargados ($\pi^{\pm}$) y neutros ($\pi^0$).\\
 
 	La parte electromagnética del chubasco es generada por los piones neutros al decaer en fotones ($\pi^0 \rightarrow \gamma \gamma$), esta cascada consiste en producción de pares ($\gamma\rightarrow e^+ e^-$) y bremsstrahlung ($e^{\pm} \rightarrow e^{\pm}\gamma$). Por su parte, los piones cargados pueden volver a interactuar hadrónicamente mientras tengan suficiente energía, luego de eso decaerán en neutrinos y muones ($\pi^{-} \rightarrow \mu^- \bar{\nu}_{\mu}$, $\pi^{+} \rightarrow \mu^+ \nu_{\mu} $). El desarrollo de un chubasco se ilustra en la figura \ref{fig:airshower}.\\
 				
@@ -109,14 +109,61 @@ donde $E_0$ es la energía con la que entra al proceso de aceleración. Tomando 
 	\label{fig:airshower}
 	\end{figure}	
 
+	En 1954, W. Heitler presentó un modelo simplificado del desarrollo de la componente electromagnética, posteriormente modificado por J. Matthews. Aunque no reemplaza simulaciones detalladas de chubascos, el modelo Heitler-Matthews permite describir correctamente características importantes de los mismos. En el modelo de Heitler se describe la componente electromagnética como ilustra la figura \ref{fig:heitler_em}; 
+	\begin{wrapfigure}{l}{0.3\textwidth}
+	\includegraphics[width=0.3\textwidth]{Figuras/heitler_em.png} 
+	\caption{Esquema de un chubasco puramente electromagnético; las líneas rectas representan electrones y las curvas representan fotones.}
+	\label{fig:heitler_em}
+	\end{wrapfigure}		
+	luego de viajar una distancia $d=\lambda_r \ln 2$ (donde $\lambda_r$ es la longitud de radiación en el aire) un electrón produce un fotón que al viajar la misma distancia produce un par $e^- e^+$. Luego de $n$ divisiones, en la cascada hay un total de $N=2^n$ partículas; la división se detiene cuando las partículas alcanzan una energía crítica $\xi^e_c$. \\
+	
+	A partir de lo anterior pueden deducirse características de un chubasco iniciado por un fotón:
+	\begin{align}
+	E_0 &= \xi ^e_c N_{\text{max}}, \\
+	X^{\gamma}_{\text{max}} &= n_c \lambda \ln 2 = \lambda \ln[E_0/\xi ^e_c] \label{maxgamma},
+	\end{align}
+	donde $n_c$ es el número de longitudes $d$ necesarias para que la energía por partícula se reduzca a $\xi_c^e$, donde $N = N_{\text{max}}= 2^{n_c}$.
+	\begin{wrapfigure}{r}{0.3\textwidth}
+	\includegraphics[width=0.3\textwidth]{Figuras/heitler_h.png} 
+	\caption{Esquema de un chubasco producido por un protón; las líneas sólidas representan piones cargados mientras las líneas cortadas representan piones neutros.}
+	\label{fig:heitler_h}
+	\end{wrapfigure}	 
+	Los chubascos iniciados por hadrones se describen similarmente, como se ilustra en la figura \ref{fig:heitler_h}. Se consideran capas de atmósfera de altura $\lambda_I \ln 2$ donde $\lambda_I$ es la longitud de interacción. Luego de atravesar una capa, un hadrón interactúa produciendo partes iguales de piones cargados y neutros; $N_{\pi^{\pm}}$ cargados y $N_{\pi^{0}}=\frac{1}{2}N_{\pi^{\pm}}$ neutros. Los piones cargados pueden repetir el proceso hasta alcanzar una energía crítica $\xi_c^{\pi}$, entonces se asume su decaimiento. \\
+	
+	Luego de $n$ capas, la energía por pion cargado es
+	\begin{align}
+	E_{\pi} = \frac{E_0}{\qty(\frac{3}{2}N_{\pi^{\pm}})^n},
+	\end{align}
+	de manera que el número de interacciones $n_c$ necesarias para que la energía por pion alcance el valor crítico es
+	\begin{align}
+	n_c = \frac{\ln \qty[E_0 / \xi_c^{\pi}]}{\ln \qty[\frac{3}{2}N_{\pi^{\pm}}]}.
+	\end{align}
+	Considerando un chubasco iniciado por un protón, con componentes electromagnética y hadrónica, y tomando en cuenta el decaimiento de todos los piones en muones ($(N_{\pi^{\pm}^{n_c}} = N_{\mu}$) la energía total es
+	\begin{align} \label{totalEnergy}
+	E_0 = \xi_c^e N_{\text{max}}+\xi_c^{\pi} N_{\mu}.
+	\end{align}
+	El modelo de Heitler sobreestima la razón de electrones a fotones, de manera que se introduce un factor de corrección $g=10$ tal que $N_e = N/g$. Con esta corrección la ecuación (\ref{totalEnergy}) se reescribe como
+	\begin{align}
+	E_0 = g \xi_c^e \qty(N_e + \frac{\xi_c^{\pi}}{g \xi_c^e} N_{\mu}),
+	\end{align}
+	lo que indica que la energía inicial puede calcularse si se miden el número de electrones y de muones. Cabe mencionar que esta expresión es independiente de el tipo de partícula primaria. Asimismo se puede estimar la profundidad del máximo $X_{\text{max}}^p$ tomando en cuenta que el protón primario interactúa a una profundidad $X_0=\lambda_I \ln 2$ como
+	\begin{align}
+	X_{\text{max}}^{p} &= X_0 + \lambda_r \ln \qty[\frac{E_0}{3 N_{\pi^{\pm}}\xi_c^e}].
+	\end{align}
+	El segundo término corresponde a la profundidad del máximo de la componente electromagnética de la ecuación (\ref{maxgamma}), cuya energía inicial es $E_0/3N_{\pi^{\pm}}$. En general los valores calculados con la ecuación anterior son bastante bajos comparados con resultados de simulaciones; esto debido a que sólo se toma en cuenta la primera generación de partículas de la componente electromagnética. \\
+
+
+
 	La propagación de partículas (nucleones en particular) a través de la atmósfera, puede describirse con la ecuación de cascada:
 	\begin{align}
 	\dv{N(E,X)}{X} = -\frac{N(E,X)}{\lambda_N(E)} + \int_E^{\infty}\frac{N(E',X)}{\lambda_N(E)} F_{NN}(E,E') \frac{\dd E'}{E},
 	\end{align}
-	donde $N(E,X) \dd E$ es el flujo de nucleones a una profundidad $X$ en la atmósfera con energías entre $E$ y $E+\dd E$, $\lambda_N$ es la \textit{longitud de interacción} del nucleón en el aire y $F_{NN}$ es la sección eficaz para la colisión de un nucleón incidente de energía $E'$ con un núcleo del aire, produciendo otro nucleón con energía $E$. Para generalizar al caso de la propagación de los múltiples hadrones producidos, se considera un grupo de ecuaciones acopladas \cite{Gaisser1990}:
+	donde $N(E,X) \dd E$ es el flujo de nucleones a una profundidad $X$ en la atmósfera con energías entre $E$ y $E+\dd E$, $\lambda_N$ es la longitud de interacción del nucleón en el aire y $F_{NN}$ es la sección eficaz para la colisión de un nucleón incidente de energía $E'$ con un núcleo del aire, produciendo otro nucleón con energía $E$. Para generalizar al caso de la propagación de los múltiples hadrones producidos, se considera un grupo de ecuaciones acopladas \cite{Gaisser1990}:
 	\begin{align}
 	\dv{N_i(E,X)}{X} = -\qty(\frac{1}{\lambda_i}+\frac{1}{d_i}) N_i(E,X) + \sum_i \int \frac{F_{ij}(E_i,E_j)}{E_i} \frac{N_j(E_j)}{\lambda_j} \dd{E_j}.
 	\end{align}
+	
+
 	
 	\subsection{Métodos de observación}
 	Existen distintos tipos de experimentos para observar chubascos atmosféricos, la técnica utilizada depende principalmente de la energía del rayo cósmico incidente; a energías $>50$ TeV pueden detectarse partículas secundarias directamente a nivel del suelo, mientras que a energías $\sim$TeV pueden observarse recolectando la radiación producida en las interacciones de las partículas. \\

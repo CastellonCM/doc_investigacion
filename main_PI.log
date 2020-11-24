@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.6)  22 NOV 2020 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.6)  24 NOV 2020 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2726,21 +2726,6 @@ File: Figuras/air_shower.png Graphic file (type png)
 <use Figuras/air_shower.png>
 Package pdftex.def Info: Figuras/air_shower.png  used on input line 107.
 (pdftex.def)             Requested size: 283.22162pt x 225.85043pt.
-<Figuras/heitler_em.png, id=271, 578.16pt x 448.67625pt>
-File: Figuras/heitler_em.png Graphic file (type png)
-<use Figuras/heitler_em.png>
-Package pdftex.def Info: Figuras/heitler_em.png  used on input line 114.
-(pdftex.def)             Requested size: 141.61081pt x 109.89583pt.
-
-Underfull \hbox (badness 2012) in paragraph at lines 115--115
-\OT1/cmr/m/n/12 chu-bas-co pu-ra-men-te elec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--117
-\OT1/cmr/m/n/12 elec-tro-magn^^Seti-ca co-mo ilus-tra la fi-gu-ra []1.5[];
- []
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 117.
 Package babel Info: Redefining spanish shorthand >>
@@ -2766,204 +2751,405 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 117.
 [10 <./Figuras/air_shower.png>]
-Underfull \hbox (badness 2556) in paragraph at lines 117--119
+<Figuras/heitler_em.png, id=280, 578.16pt x 448.67625pt>
+File: Figuras/heitler_em.png Graphic file (type png)
+<use Figuras/heitler_em.png>
+Package pdftex.def Info: Figuras/heitler_em.png  used on input line 124.
+(pdftex.def)             Requested size: 141.61081pt x 109.89583pt.
+
+Underfull \hbox (badness 2012) in paragraph at lines 125--125
+\OT1/cmr/m/n/12 chu-bas-co pu-ra-men-te elec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+\OT1/cmr/m/n/12 elec-tro-magn^^Seti-ca co-mo ilus-tra la fi-gu-ra []1.5[];
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 127--129
 []\OT1/cmr/m/n/12 luego de via-jar una dis-tan-cia $\OML/cmm/m/it/12 d \OT1/cmr
 /m/n/12 = \OML/cmm/m/it/12 ^^U[] [] \OT1/cmr/m/n/12 2$ (don-de $\OML/cmm/m/it/1
 2 ^^U[]$
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 117--119
+Underfull \hbox (badness 1052) in paragraph at lines 127--129
 \OT1/cmr/m/n/12 es la lon-gi-tud de ra-dia-ci^^Son en el ai-re) un electr^^Son 
 pro-
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 117--119
+Underfull \hbox (badness 1400) in paragraph at lines 127--129
 \OT1/cmr/m/n/12 du-ce un fot^^Son que al via-jar la mis-ma dis-tan-cia pro-du-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 117--119
+Underfull \hbox (badness 1655) in paragraph at lines 127--129
 \OT1/cmr/m/n/12 ce un par $\OML/cmm/m/it/12 e[]e[]$\OT1/cmr/m/n/12 . Lue-go de 
 $\OML/cmm/m/it/12 n$ \OT1/cmr/m/n/12 di-vi-sio-nes, en la cas-ca-da
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 117--119
+Underfull \hbox (badness 1762) in paragraph at lines 127--129
 \OT1/cmr/m/n/12 tie-ne cuan-do las part^^S^^Pcu-las al-can-zan una energ^^S^^Pa
  cr^^S^^Pti-ca
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-126.
+136.
 
-<Figuras/heitler_h.png, id=280, 532.99126pt x 431.6125pt>
+<Figuras/heitler_h.png, id=281, 532.99126pt x 431.6125pt>
 File: Figuras/heitler_h.png Graphic file (type png)
 <use Figuras/heitler_h.png>
-Package pdftex.def Info: Figuras/heitler_h.png  used on input line 127.
+Package pdftex.def Info: Figuras/heitler_h.png  used on input line 137.
 (pdftex.def)             Requested size: 141.61081pt x 114.67313pt.
 
-Underfull \hbox (badness 2134) in paragraph at lines 124--130
-\OT1/cmr/m/n/12 donde $\OML/cmm/m/it/12 n[]$ \OT1/cmr/m/n/12 es el n^^Sume-ro d
-e lon-gi-tu-des $\OML/cmm/m/it/12 d$ \OT1/cmr/m/n/12 ne-ce-sa-rias pa-
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 124--130
-\OT1/cmr/m/n/12 ra que la energ^^S^^Pa por part^^S^^Pcu-la se re-duz-ca a $\OML
-/cmm/m/it/12 ^^X[]$\OT1/cmr/m/n/12 , don-de $\OML/cmm/m/it/12 N \OT1/cmr/m/n/12
- = \OML/cmm/m/it/12 N[] \OT1/cmr/m/n/12 = 2[]$.
- []
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 13
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
 0.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
-[11 <./Figuras/heitler_em.png> <./Figuras/heitler_h.png>]
+(babel)             in language  on input line 143.
+[11 <./Figuras/heitler_em.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 166.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 166.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 166.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 166.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 166.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 166.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 166.
+ [12 <./Figuras/heitler_h.png>]
+! Argument of \align has an extra }.
+<inserted text> 
+                \par 
+l.170 ...\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}}
+                                                  , \\
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Runaway argument?
+ N_{\mu }^{A} &= N_{\mu }^{p} A^{\beta -1}
+! Paragraph ended before \align was complete.
+<to be read again> 
+                   \par 
+l.170 ...\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}}
+                                                  , \\
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 ...\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}}
+                                                  , \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.170 ...\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}}
+                                                  , \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.170 ...\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}}
+                                                  , \\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.170 ...\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}}
+                                                  , \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.171 	X_
+         {\text{max}}^{A} 	&= X_{\text{max}}^{p} - \lambda_r \ln A.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.171 	X_{\text{max}}^{A} 	&
+                            = X_{\text{max}}^{p} - \lambda_r \ln A.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.172 	\end{align}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.172 	\end{align}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.172 	\end{align}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.172 	\end{align}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
+                                                  
+l.172 	\end{align}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.172 	\end{align}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (183.62839pt too wide) detected at line 172
+[]
+ []
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.172 	\end{align}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.172 	\end{align}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.172 	\end{align}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 177.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 177.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 177.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 177.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 177.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 177.
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 171.
-[12]
+(babel)             in language  on input line 181.
+[13]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 173.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 173.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 173.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 173.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 173.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 173.
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-<Figuras/Pierog2018.png, id=309, 948.54375pt x 298.11375pt>
-File: Figuras/Pierog2018.png Graphic file (type png)
-<use Figuras/Pierog2018.png>
-Package pdftex.def Info: Figuras/Pierog2018.png  used on input line 178.
-(pdftex.def)             Requested size: 448.42822pt x 140.93227pt.
+(babel)             in language  on input line 182.
 
 Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 184.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 184.
-[13 <./Figuras/Pierog2018.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+<Figuras/Pierog2018.png, id=321, 948.54375pt x 298.11375pt>
+File: Figuras/Pierog2018.png Graphic file (type png)
+<use Figuras/Pierog2018.png>
+Package pdftex.def Info: Figuras/Pierog2018.png  used on input line 187.
+(pdftex.def)             Requested size: 448.42822pt x 140.93227pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-<Figuras/Xmax_PAO.png, id=322, 743.77875pt x 231.86626pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 195.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 195.
+[14 <./Figuras/Pierog2018.png (PNG copy)>]
+<Figuras/Xmax_PAO.png, id=333, 743.77875pt x 231.86626pt>
 File: Figuras/Xmax_PAO.png Graphic file (type png)
 <use Figuras/Xmax_PAO.png>
-Package pdftex.def Info: Figuras/Xmax_PAO.png  used on input line 189.
+Package pdftex.def Info: Figuras/Xmax_PAO.png  used on input line 198.
 (pdftex.def)             Requested size: 448.42822pt x 139.79657pt.
-<Figuras/Nmu_Sciutto.png, id=327, 552.0625pt x 459.7175pt>
+<Figuras/Nmu_Sciutto.png, id=338, 552.0625pt x 459.7175pt>
 File: Figuras/Nmu_Sciutto.png Graphic file (type png)
 <use Figuras/Nmu_Sciutto.png>
-Package pdftex.def Info: Figuras/Nmu_Sciutto.png  used on input line 198.
+Package pdftex.def Info: Figuras/Nmu_Sciutto.png  used on input line 207.
 (pdftex.def)             Requested size: 330.42041pt x 275.15921pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2992,7 +3178,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
- [14 <./Figuras/Xmax_PAO.png (PNG copy)>]
+ [15 <./Figuras/Xmax_PAO.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand >>
@@ -3017,7 +3203,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
- [15 <./Figuras/Nmu_Sciutto.png (PNG copy)>]
+ [16 <./Figuras/Nmu_Sciutto.png (PNG copy)>]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 43.
@@ -3085,7 +3271,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 19.
-[16
+[17
 
 ]
 Package babel Info: Redefining spanish shorthand <<
@@ -3139,7 +3325,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 29.
-[17]
+[18]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand >>
@@ -3182,7 +3368,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 46.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
- [18]
+ [19]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 46.
@@ -3230,7 +3416,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Figuras/composition.png, id=367, 968.418pt x 433.62pt>
+<Figuras/composition.png, id=378, 968.418pt x 433.62pt>
 File: Figuras/composition.png Graphic file (type png)
 <use Figuras/composition.png>
 Package pdftex.def Info: Figuras/composition.png  used on input line 13.
@@ -3274,7 +3460,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 21.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
-[19
+[20
 
 ]
 Package babel Info: Redefining spanish shorthand <<
@@ -3289,7 +3475,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 30.
-<Figuras/coordinates.png, id=373, 758.835pt x 517.935pt>
+<Figuras/coordinates.png, id=384, 758.835pt x 517.935pt>
 File: Figuras/coordinates.png Graphic file (type png)
 <use Figuras/coordinates.png>
 Package pdftex.def Info: Figuras/coordinates.png  used on input line 32.
@@ -3318,7 +3504,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 36.
- [20 <./Figuras/composition.png>]
+ [21 <./Figuras/composition.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand >>
@@ -3367,7 +3553,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
- [21 <./Figuras/coordinates.png (PNG copy)>]
+ [22 <./Figuras/coordinates.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 73.
 Package babel Info: Redefining spanish shorthand >>
@@ -3404,7 +3590,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 83.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 83.
- [22]
+ [23]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand >>
@@ -3468,7 +3654,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 103.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 103.
-[23])
+[24])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 49.
 Package babel Info: Redefining spanish shorthand >>
@@ -3493,7 +3679,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 49.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 49.
- [24]
+ [25]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 49.
@@ -3536,7 +3722,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 46.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
-[25
+[26
 
 ]
 Overfull \hbox (7.64877pt too wide) in paragraph at lines 48--49
@@ -3569,7 +3755,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 52.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 52.
- [26]
+ [27]
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -3602,7 +3788,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 54.
-[27
+[28
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
@@ -3615,10 +3801,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `main_PI.out' has not changed.
 (rerunfilecheck)             Checksum: 86ED3603976C61BF3EC39934450D3798;2280.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main_PI.run.xml'.
 \openout1 = `main_PI.run.xml'.
 
@@ -3632,13 +3814,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24735 strings out of 492982
- 432284 string characters out of 6134897
+ 24741 strings out of 492982
+ 432336 string characters out of 6134897
  865957 words of memory out of 5000000
- 27912 multiletter control sequences out of 15000+600000
+ 27915 multiletter control sequences out of 15000+600000
  542463 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,17n,65p,10404b,2064s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,17n,65p,10404b,2062s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
@@ -3655,10 +3837,10 @@ msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main_PI.pdf (28 pages, 1412688 bytes).
+Output written on main_PI.pdf (29 pages, 1415826 bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 455 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
  309 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -108,52 +108,7 @@ donde $E_0$ es la energía con la que entra al proceso de aceleración. Tomando 
 	\caption{Esquema de la formación y desarrollo de un chubasco atmosférico. Se observa la componente hadrónica y la electromagnética. (Tomada de \cite{Poderosas})}
 	\label{fig:airshower}
 	\end{figure}	
-
-	En 1954, W. Heitler presentó un modelo simplificado del desarrollo de la componente electromagnética, posteriormente modificado por J. Matthews. Aunque no reemplaza simulaciones detalladas de chubascos, el modelo Heitler-Matthews permite describir correctamente características importantes de los mismos. En el modelo de Heitler se describe la componente electromagnética como ilustra la figura \ref{fig:heitler_em}; 
-	\begin{wrapfigure}{l}{0.3\textwidth}
-	\includegraphics[width=0.3\textwidth]{Figuras/heitler_em.png} 
-	\caption{Esquema de un chubasco puramente electromagnético; las líneas rectas representan electrones y las curvas representan fotones.}
-	\label{fig:heitler_em}
-	\end{wrapfigure}		
-	luego de viajar una distancia $d=\lambda_r \ln 2$ (donde $\lambda_r$ es la longitud de radiación en el aire) un electrón produce un fotón que al viajar la misma distancia produce un par $e^- e^+$. Luego de $n$ divisiones, en la cascada hay un total de $N=2^n$ partículas; la división se detiene cuando las partículas alcanzan una energía crítica $\xi^e_c$. \\
 	
-	A partir de lo anterior pueden deducirse características de un chubasco iniciado por un fotón:
-	\begin{align}
-	E_0 &= \xi ^e_c N_{\text{max}}, \\
-	X^{\gamma}_{\text{max}} &= n_c \lambda \ln 2 = \lambda \ln[E_0/\xi ^e_c] \label{maxgamma},
-	\end{align}
-	donde $n_c$ es el número de longitudes $d$ necesarias para que la energía por partícula se reduzca a $\xi_c^e$, donde $N = N_{\text{max}}= 2^{n_c}$.
-	\begin{wrapfigure}{r}{0.3\textwidth}
-	\includegraphics[width=0.3\textwidth]{Figuras/heitler_h.png} 
-	\caption{Esquema de un chubasco producido por un protón; las líneas sólidas representan piones cargados mientras las líneas cortadas representan piones neutros.}
-	\label{fig:heitler_h}
-	\end{wrapfigure}	 
-	Los chubascos iniciados por hadrones se describen similarmente, como se ilustra en la figura \ref{fig:heitler_h}. Se consideran capas de atmósfera de altura $\lambda_I \ln 2$ donde $\lambda_I$ es la longitud de interacción. Luego de atravesar una capa, un hadrón interactúa produciendo partes iguales de piones cargados y neutros; $N_{\pi^{\pm}}$ cargados y $N_{\pi^{0}}=\frac{1}{2}N_{\pi^{\pm}}$ neutros. Los piones cargados pueden repetir el proceso hasta alcanzar una energía crítica $\xi_c^{\pi}$, entonces se asume su decaimiento. \\
-	
-	Luego de $n$ capas, la energía por pion cargado es
-	\begin{align}
-	E_{\pi} = \frac{E_0}{\qty(\frac{3}{2}N_{\pi^{\pm}})^n},
-	\end{align}
-	de manera que el número de interacciones $n_c$ necesarias para que la energía por pion alcance el valor crítico es
-	\begin{align}
-	n_c = \frac{\ln \qty[E_0 / \xi_c^{\pi}]}{\ln \qty[\frac{3}{2}N_{\pi^{\pm}}]}.
-	\end{align}
-	Considerando un chubasco iniciado por un protón, con componentes electromagnética y hadrónica, y tomando en cuenta el decaimiento de todos los piones en muones ($(N_{\pi^{\pm}^{n_c}} = N_{\mu}$) la energía total es
-	\begin{align} \label{totalEnergy}
-	E_0 = \xi_c^e N_{\text{max}}+\xi_c^{\pi} N_{\mu}.
-	\end{align}
-	El modelo de Heitler sobreestima la razón de electrones a fotones, de manera que se introduce un factor de corrección $g=10$ tal que $N_e = N/g$. Con esta corrección la ecuación (\ref{totalEnergy}) se reescribe como
-	\begin{align}
-	E_0 = g \xi_c^e \qty(N_e + \frac{\xi_c^{\pi}}{g \xi_c^e} N_{\mu}),
-	\end{align}
-	lo que indica que la energía inicial puede calcularse si se miden el número de electrones y de muones. Cabe mencionar que esta expresión es independiente de el tipo de partícula primaria. Asimismo se puede estimar la profundidad del máximo $X_{\text{max}}^p$ tomando en cuenta que el protón primario interactúa a una profundidad $X_0=\lambda_I \ln 2$ como
-	\begin{align}
-	X_{\text{max}}^{p} &= X_0 + \lambda_r \ln \qty[\frac{E_0}{3 N_{\pi^{\pm}}\xi_c^e}].
-	\end{align}
-	El segundo término corresponde a la profundidad del máximo de la componente electromagnética de la ecuación (\ref{maxgamma}), cuya energía inicial es $E_0/3N_{\pi^{\pm}}$. En general los valores calculados con la ecuación anterior son bastante bajos comparados con resultados de simulaciones; esto debido a que sólo se toma en cuenta la primera generación de partículas de la componente electromagnética. \\
-
-
-
 	La propagación de partículas (nucleones en particular) a través de la atmósfera, puede describirse con la ecuación de cascada:
 	\begin{align}
 	\dv{N(E,X)}{X} = -\frac{N(E,X)}{\lambda_N(E)} + \int_E^{\infty}\frac{N(E',X)}{\lambda_N(E)} F_{NN}(E,E') \frac{\dd E'}{E},
@@ -162,7 +117,61 @@ donde $E_0$ es la energía con la que entra al proceso de aceleración. Tomando 
 	\begin{align}
 	\dv{N_i(E,X)}{X} = -\qty(\frac{1}{\lambda_i}+\frac{1}{d_i}) N_i(E,X) + \sum_i \int \frac{F_{ij}(E_i,E_j)}{E_i} \frac{N_j(E_j)}{\lambda_j} \dd{E_j}.
 	\end{align}
-	
+
+		\subsubsection*{Modelo Heitler-Matthews}
+		En 1954, W. Heitler presentó un modelo simplificado del desarrollo de la componente electromagnética, posteriormente modificado por J. Matthews. Aunque no reemplaza simulaciones detalladas de chubascos, el modelo Heitler-Matthews permite describir correctamente características importantes de los mismos. En el modelo de Heitler se describe la componente electromagnética como ilustra la figura \ref{fig:heitler_em}; 
+		\begin{wrapfigure}{l}{0.3\textwidth}
+		\includegraphics[width=0.3\textwidth]{Figuras/heitler_em.png} 
+		\caption{Esquema de un chubasco puramente electromagnético; las líneas rectas representan electrones y las curvas representan fotones.}
+		\label{fig:heitler_em}
+		\end{wrapfigure}		
+		luego de viajar una distancia $d=\lambda_r \ln 2$ (donde $\lambda_r$ es la longitud de radiación en el aire) un electrón produce un fotón que al viajar la misma distancia produce un par $e^- e^+$. Luego de $n$ divisiones, en la cascada hay un total de $N=2^n$ partículas; la división se detiene cuando las partículas alcanzan una energía crítica $\xi^e_c$. \\
+		
+		A partir de lo anterior pueden deducirse características de un chubasco iniciado por un fotón:
+		\begin{align}
+		E_0 &= \xi ^e_c N_{\text{max}} \label{e0_em}, \\
+		X^{\gamma}_{\text{max}} &= n_c \lambda \ln 2 = \lambda \ln[E_0/\xi ^e_c] \label{xmax_em},
+		\end{align}
+		donde $n_c$ es el número de longitudes $d$ necesarias para que la energía por partícula se reduzca a $\xi_c^e$, donde $N = N_{\text{max}}= 2^{n_c}$. Se observa que el número de partículas en el máximo aumenta linealmente con la energía inicial y que la profundidad aumenta con la energía de manera logarítmica.
+		\begin{wrapfigure}{r}{0.3\textwidth}
+		\includegraphics[width=0.3\textwidth]{Figuras/heitler_h.png} 
+		\caption{Esquema de un chubasco producido por un protón; las líneas sólidas representan piones cargados mientras las líneas cortadas representan piones neutros.}
+		\label{fig:heitler_h}
+		\end{wrapfigure}	 
+		Los chubascos iniciados por hadrones se describen similarmente, como se ilustra en la figura \ref{fig:heitler_h}. Se consideran capas de atmósfera de altura $\lambda_I \ln 2$ donde $\lambda_I$ es la longitud de interacción. Luego de atravesar una capa, un hadrón interactúa produciendo partes iguales de piones cargados y neutros; $N_{\pi^{\pm}}$ cargados y $N_{\pi^{0}}=\frac{1}{2}N_{\pi^{\pm}}$ neutros. Los piones cargados pueden repetir el proceso hasta alcanzar una energía crítica $\xi_c^{\pi}$, entonces se asume su decaimiento. \\
+		
+		Luego de $n$ capas, la energía por pion cargado es
+		\begin{align}
+		E_{\pi} = \frac{E_0}{\qty(\frac{3}{2}N_{\pi^{\pm}})^n},
+		\end{align}
+		de manera que el número de interacciones $n_c$ necesarias para que la energía por pion alcance el valor crítico es
+		\begin{align}
+		n_c = \frac{\ln \qty[E_0 / \xi_c^{\pi}]}{\ln \qty[\frac{3}{2}N_{\pi^{\pm}}]}.
+		\end{align}
+		Considerando un chubasco iniciado por un protón, con componentes electromagnética y hadrónica, y tomando en cuenta el decaimiento de todos los piones en muones ($(N_{\pi^{\pm}}^{n_c} = N_{\mu}$) la energía total es
+		\begin{align} \label{totalEnergy}
+		E_0 = \xi_c^e N_{\text{max}}+\xi_c^{\pi} N_{\mu}.
+		\end{align}
+		El modelo de Heitler sobreestima la razón de electrones a fotones, de manera que se introduce un factor de corrección $g=10$ tal que $N_e = N/g$. Con esta corrección la ecuación (\ref{totalEnergy}) se reescribe como
+		\begin{align} \label{e0_h}
+		E_0 = g \xi_{c}^{e} \qty(N_e + \frac{\xi_c^{\pi}}{g \xi_c^{e}} N_{\mu}),
+		\end{align}
+		lo que indica que la energía inicial puede calcularse si se miden el número de electrones y de muones. Cabe mencionar que esta expresión es independiente de el tipo de partícula primaria. Asimismo se puede estimar la profundidad del máximo $X_{\text{max}}^{p}$ tomando en cuenta que el protón primario interactúa a una profundidad $X_0=\lambda_I \ln 2$ como
+		\begin{align} \label{xmax_h}
+		X_{\text{max}}^{p} &= X_0 + \lambda_r \ln \qty[\frac{E_0}{3 N_{\pi^{\pm}}\xi_c^e}].
+		\end{align}
+		El segundo término corresponde a la profundidad del máximo de la componente electromagnética de la ecuación (\ref{xmax_em}), cuya energía inicial es $E_0/3N_{\pi^{\pm}}$. En las ecuaciones (\ref{e0_h}) y (\ref{xmax_h}) se observa que la dependencia del número de partículas y la profundidad del máximo con la energía inicial es líneal y logarítmica, respectivamente, tal como en (\ref{e0_em}) y (\ref{xmax_em}). En general los valores calculados con la ecuación (\ref{xmax_h}) son bastante bajos comparados con resultados de simulaciones; esto debido a que sólo se toma en cuenta la primera generación de partículas de la componente electromagnética. Por otro lado, el número de muones en el chubasco puede expresarse en función de la energía como
+		\begin{align}
+		N_{\mu} &= \qty(\frac{E_0}{\xi_c^{\pi}})^{\beta}, \text{ donde } \beta = \frac{\ln[N_{\pi^{\pm}}]}{\ln[\frac{3}{2}N_{\pi^{\pm}}]}
+		\end{align}
+
+	Para describir chubascos producidos por un nucleo $A$, en el modelo Heitler-Matthews se utiliza el modelo de superposición; se trata el núcleo como $A$ protones iniciando chubascos individualmente. cada uno con una porción igual de la energía inicial del núcleo $E_0$, es decir $E_0/A$. Las características de éstos chubascos pueden obtenerse sustituyendo la energía inicial en las ecuaciones para protones, a la vez que se expresan en términos de las cantidades correspondientes a un chubasco producido por un protón de energía $E_0$, por ejemplo el número de muones y la profundidad del máximo puede expresarse como
+	\begin{align}
+	N_{\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}}, \\ 
+	X_{\text{max}}^{A} 	&= X_{\text{max}}^{p} - \lambda_r \ln A.
+	\end{align}
+
+	Adicionalmente, Matthews presenta el modelo tomando en cuenta la inelasticidad de las interacciones; como resultado de una interacción se produce una partícula principal que se lleva la mayor parte de la energía, de manera que hay menos energía disponible para la producción de las múltiples partículas restantes. La inelasticidad se introduce con un parámetro $\kappa$ representando la porción de la energía inicial que se invierte en la producción de piones. Todas las expresiones anteriores corresponden a un valor $\kappa = 1$.
 
 	
 	\subsection{Métodos de observación}

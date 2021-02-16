@@ -165,7 +165,7 @@ donde $E_0$ es la energía con la que entra al proceso de aceleración. Tomando 
 		N_{\mu} &= \qty(\frac{E_0}{\xi_c^{\pi}})^{\beta}, \text{ donde } \beta = \frac{\ln[N_{\pi^{\pm}}]}{\ln[\frac{3}{2}N_{\pi^{\pm}}]}
 		\end{align}
 
-	Para describir chubascos producidos por un nucleo $A$, en el modelo Heitler-Matthews se utiliza el modelo de superposición; se trata el núcleo como $A$ protones iniciando chubascos individualmente. cada uno con una porción igual de la energía inicial del núcleo $E_0$, es decir $E_0/A$. Las características de éstos chubascos pueden obtenerse sustituyendo la energía inicial en las ecuaciones para protones, a la vez que se expresan en términos de las cantidades correspondientes a un chubasco producido por un protón de energía $E_0$, por ejemplo el número de muones y la profundidad del máximo puede expresarse como
+	Para describir chubascos producidos por un núcleo $A$, en el modelo Heitler-Matthews se utiliza el modelo de superposición; se trata el núcleo como $A$ protones iniciando chubascos individualmente. cada uno con una porción igual de la energía inicial del núcleo $E_0$, es decir $E_0/A$. Las características de éstos chubascos pueden obtenerse sustituyendo la energía inicial en las ecuaciones para protones, a la vez que se expresan en términos de las cantidades correspondientes a un chubasco producido por un protón de energía $E_0$, por ejemplo el número de muones y la profundidad del máximo puede expresarse como
 	\begin{align}
 	N_{\mu}^{A}		  	&= N_{\mu}^{p} A^{\beta -1}, \\ 
 	X_{\text{max}}^{A} 	&= X_{\text{max}}^{p} - \lambda_r \ln A.
@@ -200,16 +200,36 @@ La interpretación de las mediciones observacionales para dilucidar la composici
 \label{fig:Xmax}
 \end{figure}	
 
-Se han considerado cambios en el tratamiento de ciertos aspectos físicos en los modelos \cite{Ostapchenko2019} con los cuales se mejora la simulación de $X_{max}$ y $X_{max}^{\mu}$ comparándolo con los datos de PAO. También se ha presentado una discusión sobre $N_{\mu}$, ya que el número de muones predicho por simulaciones es significativamente menor que el observado; se puso a prueba la hipótesis de una composición mixta de los UHECR estudiando su impacto sobre $N_{\mu}$, reduciendo la diferencia entre las simulaciones y las observaciones a una constante \cite{Sciutto2019}.
+Se han considerado cambios en el tratamiento de ciertos aspectos físicos en los modelos \cite{Ostapchenko2019} con los cuales se mejora la simulación de $X_{max}$ y $X_{max}^{\mu}$ comparándolo con los datos del PAO. También se ha presentado una discusión sobre $N_{\mu}$, ya que el número de muones predicho por simulaciones es significativamente menor que el observado; se puso a prueba la hipótesis de una composición mixta de los UHECR estudiando su impacto sobre $N_{\mu}$, reduciendo la diferencia entre las simulaciones y las observaciones a una constante \cite{Sciutto2019}. \\
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{Figuras/Nmu_Sciutto} 
+\includegraphics[width=0.5\textwidth]{Figuras/Nmu_Sciutto} 
 \caption{Las líneas sólidas verde y roja corresponden a la estimación del número de muones utilizando el sistema AIRES con diferentes modelos hadrónicos. Se observa que al desplazarlas una constante éstas tienen buena concordarcia con los datos experimentales (círculos negros) \cite{Sciutto2019}.}
 \label{fig:Nmu}
 \end{figure}
 
-\ccnote{estado del conocimiento de las distribuciones laterales de electrones y muones}
+Por otro lado, otras observables que pueden ser fuente de información sobre la composición primaria de los rayos cósmicos son las distribuciones laterales de partículas (densidad de partículas a nivel de suelo en función de la distancia radial a partir del eje del chubasco) o la densidad de partículas a cierta distancia. Usualmente la distancia a la que se estudia la señal o la densidad de partículas es propia de cada observatorio y se denomina \textit{distancia óptima} ($r_{\text{opt}}$) \cite{Newton2007}, que se define como la distancia a la cual se minimizan las fluctuaciones estadísticas del ajuste de los datos a una función de distribución lateral. Estas mediciones se utilizan principalmente para determinar la energía inicial y la posición del eje del chubasco. \\
+
+Distribuciones laterales de diversas partículas han sido medidas por varios experimentos; el experimento KASCADE (\textit{KArlsruhe Shower Core and Array DEtector}) ha realizado medidas de distribuciones laterales de electrones, muones y hadrones \cite{Antoni2001}, encontrando que los datos pueden describirse por funciones de tipo NKG. Asimismo, el PAO ha contemplado una función de distribución lateral de la señal en eventos detectados por su arreglo superficial \cite{Barnhill2005}, concluyendo -luego de ajustar los datos a diferentes funciones- que una función de tipo NKG provee el mejor ajuste, y determinando $r_{\text{opt}} = 1000$ m para el observatorio. Más recientemente se reportados resultados preliminares de AMIGA (\textit{Auger Muons and Infill for the Ground Array}), una extensión del PAO, donde se ha medido directamente la densidad de muones en chubascos \cite{Muller2019}, confirmando que los modelos de interacción hadrónica no reproducen correctamente los datos en el rango de las UHE. \\
+
+Comparando datos experimentales con simulaciones se han interpretado datos de AGASA (\textit{Akeno Giant Air Shower Array}) de distribuciones laterales de electrones, fotones y muones; los resultados de simulaciones describen bien los datos, independientemente del modelo hadrónico y la composición primaria \cite{Nagano2000}. Igualmente se han comparado datos de KASCADE con simulaciones hechas con distintos modelos de interacción hadrónica y se mostró que las distribuciones de muones se reproducen bien, contrario  las de electrones que difieren de los datos experimentales \cite{Apel2005}, además se observó que ésta última sugiere un cambio a una composición pesada en el espectro de rayos cósmicos. \\
+
+\begin{figure}[]
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Apel2005} 
+\caption{Comparación de distribuciones laterales de muones resultado de simulaciones con el programa CORSIKA y medidas del observatorio KASCADE \cite{Apel2005}}
+\label{fig:Apel}
+\end{figure}
+
+Igualmente se ha estudiado el impacto del modelo de interacciones hadrónicas en las funciones de distribución lateral a partir de datos experimentales. Por ejemplo, en \cite{Drescher2003} han comparado distintas combinaciones de modelos y concluyen que las funciones son dependientes de los modelos hadrónicos de bajas y altas energías. Asimismo, se ha explorado la relación entre la forma de las distribuciones laterales y la composición primaria de los UHECR; haciendo predicciones teóricas \cite{Raikin2001} y comparando con datos de AGASA se ha visto una alta dependencia de la función de distribución lateral con la energía y composición primarias, describiéndola con la variación del parámetro radio medio cuadrado $R_{m.s}$.
+
+\begin{figure}[]
+\centering
+\includegraphics[width=0.6\textwidth, height=0.5\textwidth]{Figuras/Raikin2001} 
+\caption{Radio medio cuadrado de electrones predicho teóricamente utilizando el formalismo de escala junto con modelos de interacción hadrónica utilizando el programa CORSIKA, mostrando su dependencia de la masa primaria \cite{Raikin2001}.}
+\label{fig:Raikin}
+\end{figure}
 
 \singlespace
 

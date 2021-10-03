@@ -5,6 +5,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{physics}
+\usepackage{lscape}
 %\usepackage{cite}
 \usepackage{graphicx}
 \usepackage[table]{xcolor}
@@ -19,12 +20,37 @@
 \usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{setspace}
 
+%%% Para enumerar las líneas del PDF -------------------------------------------
+\usepackage[]{lineno} \linenumbers
+\setlength\linenumbersep{3pt}
+% para que funcione mejor la numeración {{{
+% https://tex.stackexchange.com/questions/43648/why-doesnt-lineno-number-a-paragraph-when-it-is-followed-by-an-align-equation
+\newcommand*\patchAmsMathEnvironmentForLineno[1]{%
+  \expandafter\let\csname old#1\expandafter\endcsname\csname #1\endcsname
+  \expandafter\let\csname oldend#1\expandafter\endcsname\csname end#1\endcsname
+  \renewenvironment{#1}%
+     {\linenomath\csname old#1\endcsname}%
+     {\csname oldend#1\endcsname\endlinenomath}}% 
+\newcommand*\patchBothAmsMathEnvironmentsForLineno[1]{%
+  \patchAmsMathEnvironmentForLineno{#1}%
+  \patchAmsMathEnvironmentForLineno{#1*}}%
+\AtBeginDocument{%
+\patchBothAmsMathEnvironmentsForLineno{equation}%
+\patchBothAmsMathEnvironmentsForLineno{align}%
+\patchBothAmsMathEnvironmentsForLineno{flalign}%
+\patchBothAmsMathEnvironmentsForLineno{alignat}%
+\patchBothAmsMathEnvironmentsForLineno{gather}%
+\patchBothAmsMathEnvironmentsForLineno{multline}%
+}
+% }}}	
+%%% ----------------------------------------------------------------------------
+
 \title{Proyecto de investigación: \textbf{Simulaciones de chubascos atmosféricos producidos por UHECR con composición mixta}}
 \author{Cindy Mariella Castellón Salguero}
 \date{05 Julio 2019}
 
 \begin{document}
-\input{portada_PI}
+%\input{portada_PI}
 
 %\chapter*{Abstract}
 %Abstract goes here
@@ -44,7 +70,7 @@
 \input{capitulos/Planteamiento}
 
 \chapter{Metodología}
-\input{capitulos/Metodologia}
+\input{capitulos/Metodologia_PI}
 
 \chapter{Cronograma de actividades}
 \input{capitulos/Cronograma}

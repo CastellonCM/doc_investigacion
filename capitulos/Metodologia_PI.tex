@@ -1,14 +1,14 @@
 \spacing{1.25}
 
-Se estudiar\'a la componente mu\'onica de la distribuci\'on lateral en cascadas atmosf\'ericas producidas por rayos c\'osmicos de altas energ\'ias. Para ello, con el sistema AIRES, se realizar\'an dos grupos de simulaciones por cada modelo de interacciones hadr\'onicas: el primer grupo de cascadas producidas por protones y el segundo de cascadas producidas por n\'ucleos de hierro. Cada grupo consistir\'a en aproximadamente 2000 cascadas con energ\'ias primarias del orden de los TeV.
+Se estudiar\'a la componente mu\'onica de la distribuci\'on lateral en cascadas atmosf\'ericas producidas por rayos c\'osmicos de altas energ\'ias. Para ello, con el sistema AIRES \cite{Sciutto1999a}, se realizar\'an dos grupos de simulaciones por cada modelo de interacciones hadr\'onicas: el primer grupo de cascadas producidas por protones y el segundo de cascadas producidas por n\'ucleos de hierro. Cada grupo consistir\'a en aproximadamente 2000 cascadas con energ\'ias primarias del orden de los TeV.
 
 \section{Características de las cascadas}
-Se simular\'an cascadas producidas por rayos cósmicos de energías entre $10^{12}$ y $10^{14}$ eV, en la ubicaci\'on del observatorio HAWC en Puebla, M\'exico, con latitud de 19$^{o}$ y altura de 4100 m sobre el nivel del mar. Se considerar\'an direcciones de incidencia con ángulo zenital \ccnote{creo que por el entorno de HAWC esto podr\'ia cambiar} entre 0$^{o}$ y 70$^{o}$ y ángulo azimutal distribuido isotrópicamente entre 0$^{o}$ y 360$^{o}$. Se utilizar\'an tres modelos de interacciones hadrónicas de altas energías; Sibyll 2.3d, EPOS-LHC y QGSJETII-04. Los tres modelos son ampliamente utilizados para simulaciones de cascadas atmosf\'ericas y han presentado discrepancias con las observaciones de la componente mu\'onica. Se realizar\'an simulaciones de cascadas producidas por protones y por n\'ucleos de hierro. \\
+Se simular\'an cascadas producidas por rayos cósmicos de energías entre $10^{12}$ y $10^{14}$ eV, en la ubicaci\'on del observatorio HAWC en Puebla, M\'exico, con latitud de 19$^{o}$ y altura de 4100 m sobre el nivel del mar. Se considerar\'an direcciones de incidencia con ángulo zenital entre 0$^{o}$ y 45$^{o}$ y ángulo azimutal distribuido isotrópicamente entre 0$^{o}$ y 360$^{o}$. Se utilizar\'an tres modelos de interacciones hadrónicas de altas energías; Sibyll 2.3d, EPOS-LHC y QGSJETII-04. Los tres modelos son ampliamente utilizados para simulaciones de cascadas atmosf\'ericas y han presentado discrepancias con las observaciones de la componente mu\'onica. Se realizar\'an simulaciones de cascadas producidas por protones y por n\'ucleos de hierro. \\
 	 
 \section{Software para simulaciones de altas energías}
-El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas para simular cascadas atmosféricos extendidos desarrollado por el Departamento de Física de la Universidad Nacional de La Plata y el Instituto de Física La Plata. AIRES está diseñado de manera modular para facilitar el intercambio entre los modelos de distintos aspectos de las simulaciones. El código completo de AIRES incluye los paquetes de interacciones hadrónicas EPOS 1.99, EPOS LHC, QGSJET-II-03, QGSJET-II-04, SIBYLL 2.1, SIBYLL 2.3, y SIBYLL 2.3c, así como las rutinas para evaluar el campo geomagnético. En síntesis, el sistema AIRES consiste en:
+El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas para simular cascadas atmosféricos extendidos desarrollado por el Departamento de Física de la Universidad Nacional de La Plata y el Instituto de Física La Plata. AIRES está diseñado de manera modular para facilitar el intercambio entre los modelos de distintos aspectos de las simulaciones. El código completo de AIRES (versi\'on 19.04.06) incluye los paquetes de interacciones hadrónicas EPOS 1.99, EPOS LHC, QGSJET-II-03, QGSJET-II-04, SIBYLL 2.1, SIBYLL 2.3, y SIBYLL 2.3d, así como las rutinas para evaluar el campo geomagnético. En síntesis, el sistema AIRES consiste en:
 	\begin{itemize}
-	\item Los programas de simulación principales (AiresEPLHC, AiresEP199, AiresQIIr03, AiresQIIr04, AiresS21, AiresS23, AiresS23c), cada uno conteniendo la interfaz para un paquete de interacciones hadrónicas.
+	\item Los programas de simulación principales (AiresEPLHC, AiresEP199, AiresQIIr03, AiresQIIr04, AiresS21, AiresS23, AiresS23d), cada uno conteniendo la interfaz para un paquete de interacciones hadrónicas.
 	\item El programa resumen (AiresSry), diseñado para procesar parte de los datos generados por los programas de simulación.
 	\item El programa de conversión de formato IDF (\textit{internal dump file}) a ADF (\textit{portable dump file}) (AiresIDF2ADF).
 	\item Una librería de auxiliares para procesar los archivos de salida de los programas de simulación (libAires.a)
@@ -18,10 +18,10 @@ El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas p
 	\subsection{Sistema de coordenadas}
 	\begin{wrapfigure}{r}{0.3\textwidth}
 	\includegraphics[width=0.3\textwidth]{Figuras/coordinates} 
-	\caption{Esquema del sistema de coordenadas utilizado en AIRES.}
+	\caption{Esquema del sistema de coordenadas utilizado en AIRES. (Tomada de \cite{Sciutto1999a}).}
 	\label{fig:coordinates}
 	\end{wrapfigure}		
-	El sistema de coordenadas de AIRES es un sistema cartesiano con el origen al nivel del mar en la ubicación proporcionada por el usuario, el plano $xy$ se posiciona horizontalmente; el eje $x$ apunta hacia el norte magnético, el eje $y$ hacia el Este y el eje $z$ hacia arriba. En la figura \ref{fig:coordinates} se muestra una representación esquemática del sistema coordenado, incluyendo el nivel del suelo y el nivel de inyección, éstos se refieren a superficies esféricas concéntricas con la superficie del nivel del mar. El eje del cascada se define como una línea recta que pasa por la intersección del nivel del suelo con el eje $z$, con un ángulo cenital $\Theta$ y un ángulo azimutal $\Phi$.
+	El sistema de coordenadas de AIRES es un sistema cartesiano con el origen al nivel del mar en la ubicación proporcionada por el usuario, el plano $xy$ se posiciona horizontalmente; el eje $x$ apunta hacia el norte magnético, el eje $y$ hacia el Este y el eje $z$ hacia arriba. En la figura \ref{fig:coordinates} se muestra una representación esquemática del sistema coordenado, incluyendo el nivel del suelo y el nivel de inyección, éstos se refieren a superficies esféricas concéntricas con la superficie del nivel del mar. El eje de la cascada se define como una línea recta que pasa por la intersección del nivel del suelo con el eje $z$, con un ángulo zenital $\Theta$ y un ángulo azimutal $\Phi$.
 	
 	\subsection{Atmósfera}
 	AIRES utiliza el modelo basado en datos experimentales \textit{US standard atmosphere} como modelo predeterminado. En este modelo, la composición de la atmosféra es $78.47\%$ N, $21.05\%$ O, $0.47\%$ Ar y $0.03\%$ otros elemento. El perfil de densidad isotérmico de la forma
@@ -38,7 +38,7 @@ El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas p
 	\end{cases}
 	\end{align}
 	
-	La profundidad atmosférica inclinada (\textit{slant}) $X_s$ depende del ángulo cenital y cuando no se toma en cuenta la curvatura de la Tierra, se relaciona con $X_v$ de la siguiente manera:
+	La profundidad atmosférica inclinada (\textit{slant}) $X_s$ depende del ángulo zenital y cuando no se toma en cuenta la curvatura de la Tierra, se relaciona con $X_v$ de la siguiente manera:
 	\begin{align}
 	X_s (h) = \frac{X_v (h)}{\cos(\Theta)}.
 	\end{align}

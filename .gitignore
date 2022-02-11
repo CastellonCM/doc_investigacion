@@ -45,3 +45,6 @@ acs-*.bib
 *.snm
 *.vrb
 
+#video
+*.mov
+

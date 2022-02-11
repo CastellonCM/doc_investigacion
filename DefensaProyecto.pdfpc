@@ -1,0 +1,55 @@
+[font_size]
+11
+[notes]
+### 1
+
+
+
+- Les voy a presentar el proyecto de trabajo de graduación para la Lic en Física, titulado Estudio de la componente muónica en la distribución lateral de cascadas atmosféricas.
+
+- El trabajo está siendo asesorado por el Dr. Hermes León Vargas del IFUNAM y por el Maestro Raúl Henríquez de la Escuela de fisica.
+### 2
+- Esta presentación está dividida en cuatro partes; primero el marco teórico, donde hablaré de algunos conceptos importantes para el desarrollo del proyecto; 
+
+- luego les presentaré el planteamiento del problema donde hemos delimitado el tema de investigación planteando algunas preguntas, objetivos y demás;
+
+- como tercera parte, les hablaré sobre la metodología a seguir en el trabajo, que será principalmente computacional;
+
+- y por último les presento un resumen de la calendarización de las actividades en las que hemos dividido el desarrollo del proyecto.
+### 3
+Iniciando con el Marco teórico, me gustaría hablarles de los protagonistas de las cascadas atmosféricas
+### 4
+- Los rayos cósmicos son partículas cargadas que llegan a la tierra con altas energías, mayores a 109 eV. 
+
+- En la figura se muestra el espectro de los rayos cósmicos observado en la Tierra por diferentes experimentos alrededor del mundo. El espectro se extiende desde 109 hasta aprox 1020 o 1021 eV, y se puede representar aproximadamente por una ley de potencias.
+
+- En la literatura se presentan objetos astronónicos, usualmente con campos magnéticos turbulentos, como fuentes de rayos cósmicos, tanto de origen galáctico por ejemplo
+### 5
+
+los remanentes de supernova, como extragaláctico por ejemplo los núcleos galácticos activos.
+
+- Dependiendo de la energía de los rayos cósmicos, estos se pueden detectar de forma directa o indirecta. A bajas energías pueden detectarse con instrumentos en el espacio, mientras que a muy altas energías debido a su bajo flujo se hace necesario observarlos de manera indirecta, detectando partículas secundarias que se producen al atravesar la atmósfera.
+### 6
+- Estas partículas secundarias se producen en eventos que llamamos cascadas atmosféricas. Nos van a interesar cascadas producidas por protones o por núcleos de distintas masas.
+
+- Al estar formadas po quarks estas partículas son consideradas hadrones. En interacciones hadrónicas con las partículas del aire se forman múltiples partículas secundarias que son en su mayoría mesones, siendo los piones los más numerosos.
+
+- esos son los que se muestran en la figura; los piones neutros decaen casi instantáneamente en dos fotones, los cuales inician la componente electromagnética de la cascada, por otro lado los piones cargados pueden volver a intectuar hadr+onicamente produciendo otra generación de mesones secundarios, y así sucesivamente.
+
+- cuando ya no tienen suficiente energía para interactuar, los piones cargados decaen produciendo muones y neutrinos.
+### 7
+
+- los dos principales procesos donde se producen muones en las cascadas son los dos decaimientos; el decaimiento de piones, y de kaones.
+
+- Los muones tiene una vida media del orden de los micro segundos, lo que le permite viajar lo suficiente como para llegar a los detectores a nivel del suelo.
+
+- el número de muones en una cascada es una observable que se utiliza frecuentemente para inferir la energía y la masa del rayo cósmico primario.
+
+- En este caso, nos vamos a centrar no en el número de muones, sino en cómo se distribuyen lateralmente a nivel del suelo.
+### 8
+ 
+-El trabajo está motivado en mediciones que se puedan hacer desde el observatorio HAWC. Este observatorio está ubicado en el estado de Puebla, México a una altura de 4100 m sobre el nivel del mar. Cuenta con 300 detectores cuyo arreglo cubre un área de 22,000 m2.
+
+- Los detectores consisten de tanques llenos de agua equipados con tubos fotomultiplicadores que captan la radiación de cherenkov que la partículas producen al atravesarlos.
+
+- HAWC puede medir eventos/cascadas con energías en el rango de 1 a 100 TeV.

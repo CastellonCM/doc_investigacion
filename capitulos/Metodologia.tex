@@ -1,39 +1,27 @@
 \spacing{1.25}
-\section{Simulaciones de chubascos producidos por UHECR}
-Se estudió el efecto de la composición primaria de los rayos cósmicos en la distribución lateral de electrones y muones y en la densidad de los mismos a una distancia de 1000 m del eje del chubasco. Para ello, con el programa AIRES se realizaron tres grupos de simulaciones por cada modelo de interacciones hadrónicas: el primer grupo de chubascos producidos por protones, el segundo chubascos producidos por hierro y el tercero chubascos producidos por una mezcla de protones, helio, nitrógeno y hierro. Cada grupo consistió en aproximadamente 2400 chubascos con ultraaltas energías, debido a que actualmente el problema de la composición se encuentra en esta región del espectro. 
+%\vspace{-5mm}
+Se estudi\'o la componente mu\'onica de la distribuci\'on lateral en cascadas atmosf\'ericas producidas por rayos c\'osmicos de altas energ\'ias. Para ello, con el sistema AIRES \cite{Sciutto1999a}, se realizaron dos grupos de simulaciones por cada modelo de interacciones hadr\'onicas: el primer grupo de cascadas producidas por protones y el segundo de cascadas producidas por n\'ucleos de hierro. Cada grupo consististe de aproximadamente 20,000 cascadas con energ\'ias primarias en el orden de los TeV.
 
-	\subsection{Características de los chubascos}
-	 Se simularon chubascos producidos por rayos cósmicos de energías entre $10^{17}$ y $10^{20}$ eV, en la ubicación de Malargue en Mendoza, Argentina -donde se encuentra una de las estaciones del PAO-. Se consideraron direcciones de incidencia con ángulo zenital entre 0$^{o}$ y 70$^{o}$ y ángulo azimutal distribuido isotrópicamente entre 0$^{o}$ y 360$^{o}$. Se utilizaron tres modelos de interacciones hadrónicas de altas energías; Sibyll 2.3c, EPOS-LHC y QGSJETII-04. Los tres se han destinado a este tipo de simulaciones anteriormente, y son precisamente dichos modelos los que muestran discrepancias en la composición de los UHECR basada en la profundidad $X_{\text{max}}$. \\
+\section{Características de las cascadas}
+Se simularon cascadas producidas por rayos cósmicos de energías entre $10^{12}$ y $10^{14}$ eV, en la ubicaci\'on del observatorio HAWC en Puebla, M\'exico, con latitud de 19$^{\circ}$ y altura de 4100 m sobre el nivel del mar. Se consideraron direcciones de incidencia con ángulo zenital entre 0$^{\circ}$ y 45$^{\circ}$ y ángulo azimutal distribuido isotrópicamente entre 0$^{\circ}$ y 360$^{\circ}$. Fueron utilizados tres modelos de interacciones hadrónicas de altas energías; Sibyll 2.3d, EPOS-LHC y QGSJETII-04. Los tres modelos son ampliamente utilizados para simulaciones de cascadas atmosf\'ericas y han presentado discrepancias con las observaciones de la componente mu\'onica. Se realizaron simulaciones de cascadas producidas por protones y por n\'ucleos de hierro. \\
 	 
-	 En el rango de energías mencionado, se hicieron simulaciones de chubascos producidos únicamente por protones, producidos únicamente por núcleos de hierro y finalmente producidos por la composición primaria mixta, como propone la colaboración Pierre Auger \cite{PAOcomposition}, mostrada en la Fig. \ref{fig:composition}.
-	 
-\begin{center}
-\begin{figure}[h]
-\centering
-\includegraphics[height=0.3\textheight]{Figuras/composition.png} 
-\caption{Composición en función de la energía, resultado de ajustes con los datos de $X_{\text{max}}$ del Observatorio Pierre Auger realizados con tres modelos de interacciones hadrónicas de altas energías.}
-\label{fig:composition}
-\end{figure}	
-\end{center}
-
-\section{Software para simulaciones de altas energías}
-El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas para simular chubascos atmosféricos extendidos desarrollado por el Departamento de Física de la Universidad Nacional de La Plata y el Instituto de Física La Plata. AIRES está diseñado de manera modular para facilitar el intercambio entre los modelos de distintos aspectos de las simulaciones. El código completo de AIRES incluye los paquetes de interacciones hadrónicas EPOS 1.99, EPOS LHC, QGSJET-II-03, QGSJET-II-04, SIBYLL 2.1, SIBYLL 2.3, y SIBYLL 2.3c, así como las rutinas para evaluar el campo geomagnético. En síntesis, el sistema AIRES consiste en:
+\section[Software para simulaciones]{Software para simulaciones de altas energías}
+El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas para simular cascadas atmosféricas extendidas desarrollado por el Departamento de Física de la Universidad Nacional de La Plata y el Instituto de Física La Plata. AIRES está diseñado de manera modular para facilitar el intercambio entre los modelos de distintos aspectos de las simulaciones. El código completo de AIRES (versi\'on 19.04.06) incluye los paquetes de interacciones hadrónicas EPOS 1.99, EPOS LHC, QGSJET-II-03, QGSJET-II-04, SIBYLL 2.1, SIBYLL 2.3, y SIBYLL 2.3d, así como las rutinas para evaluar el campo geomagnético. En síntesis, el sistema AIRES consiste en:
 	\begin{itemize}
-	\item Los programas de simulación principales (AiresEPLHC, AiresEP199, AiresQIIr03, AiresQIIr04, AiresS21, AiresS23, AiresS23c), cada uno conteniendo la interfaz para un paquete de interacciones hadrónicas.
+	\item Los programas de simulación principales (AiresEPLHC, AiresEP199, AiresQIIr03, AiresQIIr04, AiresS21, AiresS23, AiresS23d), cada uno conteniendo la interfaz para un paquete de interacciones hadrónicas.
 	\item El programa resumen (AiresSry), diseñado para procesar parte de los datos generados por los programas de simulación.
 	\item El programa de conversión de formato IDF (\textit{internal dump file}) a ADF (\textit{portable dump file}) (AiresIDF2ADF).
 	\item Una librería de auxiliares para procesar los archivos de salida de los programas de simulación (libAires.a)
 	\item El \textit{AIRES runner system}, para facilitar el trabajo con AIRES en ambientes UNIX. 
 	\end{itemize}
 	
-	
 	\subsection{Sistema de coordenadas}
 	\begin{wrapfigure}{r}{0.3\textwidth}
 	\includegraphics[width=0.3\textwidth]{Figuras/coordinates} 
-	\caption{Esquema del sistema de coordenadas utilizado en AIRES.}
+	\caption{Esquema del sistema de coordenadas utilizado en AIRES. (Tomada de \cite{Sciutto1999a}).}
 	\label{fig:coordinates}
 	\end{wrapfigure}		
-	El sistema de coordenadas de AIRES es un sistema cartesiano con el origen al nivel del mar en la ubicación proporcionada por el usuario, el plano $xy$ se posiciona horizontalmente; el eje $x$ apunta hacia el norte magnético, el eje $y$ hacia el Este y el eje $z$ hacia arriba. En la figura \ref{fig:coordinates} se muestra una representación esquemática del sistema coordenado, incluyendo el nivel del suelo y el nivel de inyección, éstos se refieren a superficies esféricas concéntricas con la superficie del nivel del mar. El eje del chubasco se define como una línea recta que pasa por la intersección del nivel del suelo con el eje $z$, con un ángulo cenital $\Theta$ y un ángulo azimutal $\Phi$.
+	El sistema de coordenadas de AIRES es un sistema cartesiano con el origen al nivel del mar en la ubicación proporcionada por el usuario, el plano $xy$ se posiciona horizontalmente; el eje $x$ apunta hacia el norte magnético, el eje $y$ hacia el Este y el eje $z$ hacia arriba. En la figura \ref{fig:coordinates} se muestra una representación esquemática del sistema coordenado, incluyendo el nivel del suelo y el nivel de inyección, éstos se refieren a superficies esféricas concéntricas con la superficie del nivel del mar. El eje de la cascada se define como una línea recta que pasa por la intersección del nivel del suelo con el eje $z$, con un ángulo zenital $\Theta$ y un ángulo azimutal $\Phi$.
 	
 	\subsection{Atmósfera}
 	AIRES utiliza el modelo basado en datos experimentales \textit{US standard atmosphere} como modelo predeterminado. En este modelo, la composición de la atmosféra es $78.47\%$ N, $21.05\%$ O, $0.47\%$ Ar y $0.03\%$ otros elemento. El perfil de densidad isotérmico de la forma
@@ -50,7 +38,7 @@ El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas p
 	\end{cases}
 	\end{align}
 	
-	Los coeficientes usados en AIRES, que corresponden a un modelo con $L=5$, se muestran en la tabla. La profundidad atmosférica inclinada (\textit{slant}) $X_s$ depende del ángulo cenital y cuando no se toma en cuenta la curvatura de la Tierra, se relaciona con $X_v$ de la siguiente manera:
+	La profundidad atmosférica inclinada (\textit{slant}) $X_s$ depende del ángulo zenital y cuando no se toma en cuenta la curvatura de la Tierra, se relaciona con $X_v$ de la siguiente manera:
 	\begin{align}
 	X_s (h) = \frac{X_v (h)}{\cos(\Theta)}.
 	\end{align}
@@ -65,27 +53,25 @@ El sistema AIRES (AIR shower Extended Simulations) es un conjunto de programas p
 	
 	Hay dos maneras de especificar el campo geomagnético en AIRES; la primera es ingresando manualmente los valores de $F$, $I$ y $D$, y la segunda es ingresando las coordenadas geográficas del lugar y la fecha para evaluar el campo magnético utilizando el modelo \textit{International Geomagnetic Reference Field} (IGRF).  	
 	
-	%\subsection{Modelos de interacción}
-	%En AIRES se toman toman en cuenta los procesos más relevantes; procesos electrodinámicos como producción de pares (para $e^{\pm}$ y $\mu^{\pm}$), \textit{Bremsstrahlung}, efecto fotoeléctrico y efecto Compton; procesos hadrónicos como colisiones hadrón-núcleo, reacciones fotonucleares y fragmentación nuclear; procesos de decaimiento y procesos de propagación. \\
-	
-	%Cada interacción posible está caracterizada por su sección eficaz $\sigma_i$ o por su camino libre medio $\lambda_i$. Los caminos libres medios dependen del tipo de interacción y los parámetros instantáneos de la partícula. AIRES puede calcular $\lambda_i$ analíticamente para algunas interacciones , y en otros casos debe recurrir a modelos basados en datos experimentales. 
+	\subsection{Modelos de interacción}
+	En AIRES se toman en cuenta los procesos más relevantes; procesos electrodinámicos como producción de pares (para $e^{\pm}$ y $\mu^{\pm}$), \textit{Bremsstrahlung}, efecto fotoeléctrico y efecto Compton; procesos hadrónicos como colisiones hadrón-núcleo, reacciones fotonucleares y fragmentación nuclear; procesos de decaimiento y procesos de propagación. Cada interacción posible está caracterizada por su sección eficaz $\sigma_i$ o por su camino libre medio $\lambda_i$. Los caminos libres medios dependen del tipo de interacción y los parámetros instantáneos de la partícula. AIRES puede calcular $\lambda_i$ analíticamente para interacciones a bajas energ\'ias con el algoritmo de divisi\'on de Hillas o con un modelo de fragmentaci\'on nuclear dependiendo del tipo de interacci\'on. A altas energ\'ia debe recurrir a los modelos externos basados en datos experimentales. 
 	
 	\subsection{Estructura de los programas de simulación}
-	Un chubasco se origina cuando un rayo cósmico interactúa con la atmósfera terrestre, donde se producen partículas secundarias que se propagan y pueden interactuar de manera similar produciendo más partículas. Eventualmente la multiplicidad de partículas llega a un máximo, después del cuál el chubasco empieza a atenuarse. En AIRES todo este proceso se simula de la siguiente manera \cite{Sciutto2002}:
+	Un cascada se origina cuando un rayo cósmico interactúa con la atmósfera terrestre, donde se producen partículas secundarias que se propagan y pueden interactuar de manera similar produciendo más partículas. Eventualmente la multiplicidad de partículas llega a un máximo, después del cuál  la cascada empieza a atenuarse. En AIRES todo este proceso se simula de la siguiente manera \cite{Sciutto2002}:
 	\begin{itemize}
 	\item Se definen arreglos vacíos destinados a almacenar los datos de las características de las partículas.
 	\item Las partículas pueden moverse por la atmósfera en un volumen delimitado por la superficie de inyección, el suelo y planos verticales que delimitan la región de interés.
-	\item La primera acción es añadir a un arreglo la entrada correspondiente a la partícula inicial, ésta se localiza inicialmente en la superficie de inyección y su dirección de movimiento define el eje del chubasco.
+	\item La primera acción es añadir a un arreglo la entrada correspondiente a la partícula inicial, ésta se localiza inicialmente en la superficie de inyección y su dirección de movimiento define el eje de la cascada.
 	\item Las entradas respectivas a cada partícula se actualizan primero evaluando las probabilidades de todas las interacciones posibles.
 	\item Se selecciona entre las posibles interacciones utilizando un método estocástico.
 	\item Se procesa la interacción; la partícula se mueve una cierta distancia dependiente de la interacción seleccionada y luego se generan los productos de dicha interacción. Se agregan a los arreglos las entradas de las nuevas partículas creadas.
 	\item En el caso de las partículas cargadas, se modifica la energía para tomar en cuenta pérdidas por ionización.
 	\item Las entradas de partículas pueden removerse (1) si su energía es menor que cierto límite, (2) si alcanza el nivel del suelo, (3) si alcanza la superficie de inyección hacia arriba y (4) si horizontalmente sale de la región de interés.
-	\item Se verifica que todas las entradas de partículas de los arreglos se hayan procesado; cuando se hayan procesado se completa la simulación del chubasco.
+	\item Se verifica que todas las entradas de partículas de los arreglos se hayan procesado; cuando se hayan procesado se completa la simulación de la cascada.
 	\end{itemize}	
 	
 	\subsection{Muestreo de partículas}
-	Para chubascos iniciados por partículas de ultraalta energía, el número de partículas secundarias producidas es tan grande que la tarea computacional de propagarlas todas es imposible; para poder realizar las simulaciones se emplea un mecanismo de muestreo que permite propagar únicamente un fracción representativa del total de partículas secundarias. AIRES utiliza una extensión del \textit{Hillas thinning algorithm} \cite{Kobal2001}. \\
+	Para chubascos iniciados por partículas de ultraalta energía, el número de partículas secundarias producidas es tan grande que la tarea computacional de propagarlas todas es imposible; para poder realizar las simulaciones se emplea un mecanismo de muestreo que permite propagar únicamente una fracción representativa del total de partículas secundarias. AIRES utiliza una extensión del \textit{Hillas thinning algorithm} \cite{Kobal2001}. \\
 	
 	Considerando un proceso donde una partícula primaria $A$ genera un conjunto de $n$ secundarios, éstos son propagados con cierta probabilidad $P_i$. El algoritmo de Hillas consiste en establecer una constante $E_{th}$ llamada \textit{thinning energy}; para incorporar a los secundarios $B_i$ en la propagación se compara la energía de la partícula primaria $E_A$ con $E_{th}$: si $E_A \geq E_{th}$, entonces los secundarios de aceptan con una probabilidad
 	\begin{align}

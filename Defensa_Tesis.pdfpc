@@ -1,0 +1,161 @@
+[font_size]
+11
+[notes]
+### 1
+
+
+
+- Les voy a presentar mi trabajo de graduación para la Lic en Física, titulado Estudio de la componente muónica en la distribución lateral de cascadas atmosféricas.
+
+- El trabajo fue asesorado por el Dr. Hermes León Vargas del IFUNAM y por el Maestro Raúl Henríquez de la Escuela de fisica.
+### 2
+- Esta presentación está dividida en cuatro partes; primero una introducción, donde hablaré de algunos conceptos importantes para el desarrollo del proyecto y de los objetivos de la investigación. 
+
+- Les hablaré brevemente sobre cómo realizamos el trabajo, que fue principalmente computacional;
+
+- Luego les voy a presentar los resultados más importantes que obtuvimos.
+
+- Y por último les contaré algunas conclusiones a las que llegamos con el trabajo.
+### 3
+
+En primer lugar me gustaría hablarles de los que producen las cascadas atmosféricas, que son los rayos cósmicos.
+### 4
+- Los rayos cósmicos son partículas cargadas que llegan a la tierra con altas energías, mayores a 109 eV. 
+
+- En la literatura se presentan objetos astronónicos, usualmente con campos magnéticos turbulentos, como fuentes de rayos cósmico.
+
+- Dependiendo de la energía de los rayos cósmicos, estos se pueden detectar de forma directa o indirecta. A bajas energías pueden detectarse con instrumentos en el espacio, mientras que a muy altas energías debido a su bajo flujo se hace necesario observarlos de manera indirecta, detectando partículas secundarias que se producen al atravesar la atmósfera.
+### 5
+- Estas partículas secundarias se producen en eventos que llamamos cascadas atmosféricas. Nos van a interesar cascadas producidas por protones o por núcleos de distintas masas.
+
+- Al estar formadas por quarks estas partículas son consideradas hadrones, e interactúan mediante la interacción fuerte. En las interacciones hadrónicas con las partículas del aire se forman múltiples partículas secundarias que son en su mayoría mesones, siendo los piones los más numerosos.
+
+- esos son los que se muestran en la figura; los piones neutros decaen casi instantáneamente en dos fotones, los cuales inician la componente electromagnética de la cascada, por otro lado los piones cargados pueden volver a intectuar hadrónicamente produciendo otra generación de mesones secundarios, y así sucesivamente.
+
+- cuando ya no tienen suficiente energía para interactuar, los piones cargados decaen produciendo muones y neutrinos.
+### 6
+
+Las interacciones más importantes en el desarrollo de las cascadas atmosféricas.
+
+
+### 7
+
+- los dos principales procesos donde se producen muones en las cascadas son los dos decaimientos; el decaimiento de piones, y de kaones.
+
+- Los muones tiene una vida media del orden de los micro segundos, lo que le permite viajar lo suficiente como para llegar a los detectores a nivel del suelo.
+
+- el número de muones en una cascada es una observable que se utiliza frecuentemente para inferir la energía y la masa del rayo cósmico primario.
+
+- En este caso, nos vamos a centrar no en el número de muones, sino en cómo se distribuyen lateralmente a nivel del suelo.
+### 8
+ 
+-El trabajo está motivado en mediciones que se puedan hacer desde el observatorio HAWC. Este observatorio está ubicado en el estado de Puebla, México a una altura de 4100 m sobre el nivel del mar. Cuenta con 300 detectores cuyo arreglo cubre un área de 22,000 m2.
+
+- Los detectores consisten de tanques llenos de agua equipados con tubos fotomultiplicadores que captan la radiación de cherenkov que la partículas producen al atravesarlos.
+
+- HAWC puede medir eventos/cascadas con energías en el rango de 1 a 100 TeV.
+### 9
+
+Habiéndoles dado ese contexto, estos son los objetivos que nos planteamos para la investigación:
+
+- Mediante simulaciones de cascadas atmosféricas, estudiar la distribución lateral de muones. A energías observables por el experimento HAWC.
+
+- Y en específico, queríamos ver el comportamiento de la distribución de muones en función de la energía primaria,
+
+- comparar las distribuciones en cascadas iniciadas por distintas partículas primarias. Comparamos cascadas de protones y de núcleos de hierro.
+
+- y además buscamos evaluar la influencia de cómo describamos las interacciones hadrónicas sobre la distribución lateral.
+### 10
+
+Ahora les cuento cómo realizamos este trabajo, ya les adelanté que realizamos simulaciones computacionales de cascadas atmosféricas.
+### 11
+
+
+Para esas simulaciones usamos el sistema AIRES, que es un conjunto de programas y rutinas para simular cascadas atmosféricas de manera realista. AIRES toma en cuenta las interacciones más relevantes para los rayos cósmicos en la atmośfera, e incluye principales modelos de interacciones hadrónicas de altas energías.
+### 12
+Se utilizaron las versiones más recientes de los modelos de interacción hadrónica para simular con cada uno veinte mil cascadas en la ubicación y altura  de HAWC.
+- Simulamos eventos iniciados por protones y núcleos de hierro con energías primarias en el intervalo de 1 a 100 TeV.
+
+- La componente zenital del ángulo de incidencia (que medimos a partír del eje perpendicular al suelo) lo tomamos entre 0 y 45. Este límite de 45 grados lo establecemos considerando el entorno de HAWC: el observatorio está ubicado en un valle entre dos volcanes que nos bloquean el paso de partículas provenientes de cascadas muy inclinadas.
+
+- La componente azimutal no tiene restricciones, puede tomar cualquier valor entre 0 y 360 grados.
+
+- También pusimos una energía mínima para los muones que ibamos a tomar en cuenta, tomamos muones con energías mayores a 1.6 GeV, que es la energía mínima necesaria para que produzcan radiación Cherenkov en el agua.
+### 13
+
+Ahora sí, les presento las distribuciones laterales de muones que obtuvimos de las simulaciones y cierta información que pudimos sacar relacionada con las cascadas, y al final les presento una estimación/ una primera aproximación del número de muones que podrían detectarse en HAWC de cascadas como las que simulamos.
+### 14
+
+En general así se ven las distribuciones laterales que obtuvimos (descripción de la gráfica)
+
+- Tenemos la densidad de muones, o sea número de muones por metro cuadrado, en función de la distancia, hasta 300 m. Por el espacio les presento aquí sólo tres energías primarias.
+
+- Y en general vemos características que ya esperábamos, como que la densidad de muones decrezca con la energía, o que las densidades sean mayores a mayor energía primaria. 
+
+Ahora para analizar con más detalle
+### 15
+
+Lo que hicimos fue a cada distribución que obtuvimos, le ajustamos una función de esta forma
+
+donde rM es el radio de Moliere a la altura de HAWC, y A y s son los parámetros libres del ajuste.
+
+Las curvas que obtuvimos de ese ajuste se miran algo así, graficando la función con los valores de A y s obtenidos del ajuste.
+
+El parámetro A está directamente relacionado con el número de muones, y el parámetro s con la etapa de desarrollo de la cascada y su componente muónica.
+
+Entonces hemos utilizado estos parámetros para caracterizar las distribuciones y hacer las comparaciones que pretendíamos
+### 16
+
+Ahora, comparemos los resultados de los tres modelos que utilizamos. A
+
+Aquí tenemos el parámetro A en función de la energía primaria, para protones y hierro.
+
+Vemos que para protones las curvas de los tres modelos son indistinguibles. Para los protones se alcanza a ver diferencias, que las curvas se van separando al aumentar la energía, y la diferencia máxima llega a ser del 60%, sin embargo es de notar que el parámetro varía muy poco,
+### 17
+
+Ahora les muestro el parámetro s en función de la energía primaria. Como les mencionaba, este parámetro esta relacionado con la edad o la etapa de desarrollo en que está la cascada cuando llega al suelo.
+
+Vemos que el valor de s decrece con la energía primaria, esto sucede porque a mayor energía pueden formarse más generaciones de partículas secundarias por lo que la cascada recorre más atmósfera antes de alcanzar su máximo, entonces al llegar al suelo está en una etapa más temprana o es más joven que una cascada de menor energía.
+
+Para el parámetro s vemos una situación similar, donde no se observa una dependencia clara con el modelo de interacciones hadrónicas.
+### 18
+
+AHora vamos a comparar lo que obtuvimos con cascadas de protones y cascadas de hierro, y aquí vimos algo curioso que no está en completa concordancia con lo que esperábamos.
+
+El modelo analítico de cascadas por excelencia es el de Heitler Mathews, que en general describe muy bien al menos cualitativamente las características de las cascadas. Y el modelo predice un mayor número de muones para cualquier nucleo con numero masico mayor a 1
+
+Sin embargo, en cierto intervalo de energías y en el rango de distancias que consideramos (hasta 300m), obtuvimos más muones en las cascadas iniciadas por un protón.
+
+### 19
+Ya sólo les muestro uno de los modelos, porque ya vimos que los resultados son similares.
+
+A la izquierda les muestro la gráfica de A, donde vemos el comportamiento raro que les mencionaba, vemos más muones en las cascadas de protones  que en las de hierro, hasta esta energía
+
+Este comportamiento se lo hemos atribuido a que si bien, las cascadas de hierro producen más muones, la distribución se extiende más lateralmente, de manera que esos muones están fuera del rango de 300 m que hemos considerado.
+
+Luego a la derecha tenemos el parámetro s, que sí se comporta cómo se esperaría, con las cascadas de protones estando menos desarrolladas cuando llegan al suelo. Esto porque la energía del nucleo de hierro se distribuye entre los nucleones, entonces podemos verlo como varias cascadas de menor energía, entonces una cascada de hoerro se desarrolla más rápido, por tanto cuando llega al suelo es mas vieja.
+### 20
+
+Finalmente calculamos un estimado del numero de muones que podrían detectar en el experimento HAWC, que está esquematizado en esta figura. Por simplicidad suponemos que el eje de la cascada está sobre el centro del observatorio y contamos el númeo de muones en un área circular de 70 m, cubriendo un área de aprox 15,400 m2.
+### 21
+
+Esta estimación la hicimos de dos formas:
+
+- primero extrajimos el número de muones directamente de la salida de las simulaciones
+
+- y luego calculamos el número de muones integrando las funciones que obtuvimos del ajuste a la curva.
+### 22
+
+Y esto fue lo que obtuvimos, las líneal sólidas son los muones directo de la simulación, y las lineas punteadas son los muones de la curva de ajuste.
+
+vemos que a las más altas energias estaríamos detectando entre 80 y 100 muones, sin embargo a bajas energías prácticamente no se detectarían muones.
+
+Otro detalle importante es que a partir de la curva de ajuste se obtienen en promedio 10% menos muones que de la simulación.
+### 24
+- La primera es que se observan menor cantidad de muones en las cascadas de protones que en las de hierro, contrario a la predicción del modelo Heitler Matthews. Consideramos que se debe a que las distancias que consideramos son muy pequeñas y que la componente muónica de las cascadas de hierro se extiende a mayores distancias.
+
+- La evolución de los parámetros del ajuste no muestra dependencia con el modelo de interacciones hadrónicas.
+
+- No se podrían detectar cascadas individuales con energías menores a 5 TeV  ya que no llegarían a los detectores suficientes muones para esto.
+
+- Y por último mencionamos que la curva resultado del ajuste que realizamos subestima el número de muones en un promedio de 10% con respecto a los datos de las simulaciones, lo que nos da lugar a una modificación o mejoría de la función a ajustar que podría hacerse en el futuro.

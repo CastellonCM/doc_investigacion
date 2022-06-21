@@ -1,6 +1,11 @@
- \documentclass[12pt,letterpaper]{report}
+\documentclass[12pt,letterpaper]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish,es-tabla]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headwidth}{\textwidth}
+
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -19,7 +24,6 @@
 \usepackage{booktabs}
 \usepackage[backend=bibtex,style=phys,biblabel=brackets]{biblatex}
 \bibliography{referencias}
-\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{setspace}
 \usepackage{tocloft} 
 %% Table of contents formatting
@@ -45,26 +49,30 @@
 
 \begin{document}
 \input{portada}
+\input{capitulos/protocol}
+
 \pagenumbering{roman}
 \begin{singlespace}
-  \tableofcontents{\normalsize}
-  \newpage
-% Generate a list of figures, making sure to include a table of contents line for the list.
-%  \addcontentsline{toc}{chapter}{LIST OF TABLES}
-%  \listoftables
-  \newpage
-  \addcontentsline{toc}{chapter}{\'Indice de figuras}
-  \listoffigures
+	\newpage
+	\thispagestyle{empty}
+  	\tableofcontents{\normalsize}
+  	\markboth{\uppercase{\'Indice general}}{}
+  
+  	\newpage
+  	\addcontentsline{toc}{chapter}{\'Indice de figuras}
+  	\listoffigures
+  	\markboth{\uppercase{\'Indice de figuras}}{}
 \end{singlespace}
 
 \chapter*{Resumen}
+\markboth{\uppercase{Resumen}}{}
 \addcontentsline{toc}{chapter}{Resumen}
-\input{capitulos/Resumen}
+\input{capitulos/Resumen-v2}
 
 \chapter*{Introducción}
-\addcontentsline{toc}{chapter}{Introducción}
-\input{capitulos/Introduccion}
-
+\markboth{\uppercase{Introducci\'on}}{}
+\addcontentsline{toc}{chapter}{Introducci\'on}
+\input{capitulos/Introduccion-v2}
 
 \chapter{Marco teórico}
 \pagenumbering{arabic}
@@ -77,7 +85,11 @@
 \input{capitulos/Resultados}
 
 \chapter{Conclusiones}
-\input{capitulos/Conclusiones}
+\input{capitulos/Conclusiones-v2}
+
+\appendix
+\chapter{Distribuciones para todas las energ\'ias primarias}
+\input{capitulos/Apendice}
 
 \printbibliography[title=Referencias,heading=bibintoc]
 
